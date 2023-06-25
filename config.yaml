@@ -1,0 +1,10 @@
+jmbag: 0036541471
+http:
+  address: 127.0.0.1
+  port: 8080 # change to 80 for prod
+users:
+  - name: nevenlukic
+    jmbag: 0036541471
+    password: neven # extra - use bcrypt or something similar
+  - name: admin
+    password: admin # extra - isto kao i za prethodnog usera
